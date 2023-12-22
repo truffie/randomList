@@ -1,0 +1,77 @@
+* {
+  font-family: Rubik;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+input {
+  padding: 5px;
+  font-size: 17px;
+  border-width: 1px;
+  border-color: #ffffff;
+  background-color: inherit;
+  color: #000000;
+  border-style: solid;
+  border-radius: 12px;
+  box-shadow: 0px 0px 3px rgba(66, 66, 66, .39);
+  text-shadow: 0px 0px 1px rgba(66, 66, 66, .75);
+}
+
+span {
+  font-weight: bold;
+}
+
+.wrapper {
+  padding: 20px 20px;
+  width: 800px;
+  height: 100vh;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+}
+
+.window {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 40vh;
+}
+
+.func-wrapper {
+  align-items: baseline;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.input-wrapper {
+  font-size: 24px;
+}
+
+
+
+.btn {
+  display: inline-block;
+  font-size: 24px;
+  border: 3px solid #3891df4d;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 37px;
+  padding: 10px 12px;
+  cursor: pointer;
+}
