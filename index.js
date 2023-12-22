@@ -8,7 +8,6 @@ btn.addEventListener(('click'), () => {
   let i = 1;
   const value = +counter.value
   const answer = toRandom(value);
-  console.log(answer)
   for (item of answer) {
     list.innerHTML += `<div class="list-item"><span>${i}</span>: ${[...item]}</div > `
     i++;
